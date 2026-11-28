@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://quicknote-official.pages.dev/assets/app-logo.png?v=2" alt="QuickNote Logo" width="108" height="108" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(56, 189, 248, 0.25);" />
+  <img src="https://anan.lat/assets/app-logo.png?v=2" alt="QuickNote Logo" width="108" height="108" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(56, 189, 248, 0.25);" />
 </p>
 
 <h1 align="center">QuickNote</h1>
@@ -10,12 +10,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/qq136692547-cmyk/QuickNote/releases"><img src="https://img.shields.io/badge/Release-v0.1.0-sky.svg?style=flat-square&logo=windows" alt="Release v0.1.0" /></a>
-  <a href="https://quicknote-official.pages.dev/#terms"><img src="https://img.shields.io/badge/License-Freemium%20%2F%20Commercial-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/qq136692547-cmyk/QuickNote/releases"><img src="https://img.shields.io/badge/Release-v0.2.0-sky.svg?style=flat-square&logo=windows" alt="Release v0.2.0" /></a>
+  <a href="https://anan.lat/#terms"><img src="https://img.shields.io/badge/License-Freemium%20%2F%20Commercial-blue.svg?style=flat-square" alt="License" /></a>
   <img src="https://img.shields.io/badge/Built%20with-Rust%20%2B%20Tauri%202.0-orange.svg?style=flat-square&logo=rust" alt="Rust + Tauri 2.0" />
   <img src="https://img.shields.io/badge/Vault-AES--256--GCM%20%2B%20Argon2id-003B57.svg?style=flat-square&logo=sqlite" alt="Encrypted SQLite" />
   <img src="https://img.shields.io/badge/AI%20Gateway-SenseNova%206.8%20%2B%20BYOK-indigo.svg?style=flat-square" alt="SenseNova 6.8 + BYOK" />
-  <a href="https://quicknote-official.pages.dev"><img src="https://img.shields.io/badge/Website-quicknote--official-emerald.svg?style=flat-square&logo=cloudflare" alt="Website" /></a>
+  <a href="https://anan.lat"><img src="https://img.shields.io/badge/Website-anan.lat-emerald.svg?style=flat-square&logo=cloudflare" alt="Website" /></a>
   <a href="https://www.producthunt.com/products/quicknote-5"><img src="https://img.shields.io/badge/Product%20Hunt-QuickNote-DA552F.svg?style=flat-square&logo=producthunt" alt="Product Hunt" /></a>
   <a href="https://dengli.gumroad.com/l/quicknote-pro"><img src="https://img.shields.io/badge/Gumroad-Lifetime%20Pro%20%2429-FF90E8.svg?style=flat-square&logo=gumroad" alt="Gumroad" /></a>
 </p>
@@ -26,7 +26,7 @@
   <a href="#-why-quicknote-vs-others">⚔️ Comparison</a> •
   <a href="#-engineering-blog--deep-dives">📚 Engineering Blog</a> •
   <a href="#-offline-first-privacy-manifesto">🛡️ Privacy</a> •
-  <a href="https://quicknote-official.pages.dev">🌐 Official Website</a>
+  <a href="https://anan.lat">🌐 Official Website</a>
 </p>
 
 > **Note on Repository Scope**: This public repository hosts QuickNote's official Windows binary releases, SHA256 integrity manifests, security documentation, roadmap, and issue tracker. Core application source code remains proprietary and commercial.
@@ -85,13 +85,13 @@ Pro editions verify compact `QN-PRO-...` keys locally in **&lt;0.2ms** using `ed
 
 ## 📚 Engineering Blog &amp; Deep Dives
 
-Read our systems architecture papers on [quicknote-official.pages.dev/blog](https://quicknote-official.pages.dev/blog/):
+Read our systems architecture papers on [anan.lat/blog](https://anan.lat/blog/):
 
-1. **[Offline Ed25519 Software Licensing in Rust: Perpetual Ownership Without Call-Home DRM](https://quicknote-official.pages.dev/blog/offline-ed25519-cryptographic-licensing-without-drm.html)** — Sub-0.2ms `ed25519-dalek` verification, canonical payloads, and honest threat modeling.
-2. **[Sub-2ms Local Search Across 10,000 Notes: SQLite FTS5, WAL Mode, and Encrypted Vault Isolation](https://quicknote-official.pages.dev/blog/sqlite-fts5-sub-2ms-full-text-search-rust-tauri.html)** — Tuning `unicode61`, `prefix='2 3'`, BM25 ranking, and keeping AES-256-GCM secrets out of inverted indices.
-3. **[Why Rust + Tauri Beats Electron for Developer Scratchpads](https://quicknote-official.pages.dev/blog/why-rust-tauri-beats-electron-for-scratchpads.html)** — Memory footprint (15MB vs 500MB RAM) and sub-50ms summon benchmarks on Windows 11.
-4. **[Building an Offline-First SQLite Vault with AES-256-GCM and Argon2id](https://quicknote-official.pages.dev/blog/building-offline-first-sqlite-vault-aes-256-gcm.html)** — Authenticated encryption with AAD binding and `zeroize` memory scrubbing.
-5. **[Dual-Track AI Architecture: SenseNova 5-Key Gateway Load Balancing vs. Local BYOK](https://quicknote-official.pages.dev/blog/dual-track-ai-sensenova-load-balancing-vs-byok.html)** — Resilient multi-key failover alongside zero-telemetry local Ollama/BYOK routing.
+1. **[Offline Ed25519 Software Licensing in Rust: Perpetual Ownership Without Call-Home DRM](https://anan.lat/blog/offline-ed25519-cryptographic-licensing-without-drm)** — Sub-0.2ms `ed25519-dalek` verification, canonical payloads, and honest threat modeling.
+2. **[Sub-2ms Local Search Across 10,000 Notes: SQLite FTS5, WAL Mode, and Encrypted Vault Isolation](https://anan.lat/blog/sqlite-fts5-sub-2ms-full-text-search-rust-tauri)** — Tuning `unicode61`, `prefix='2 3'`, BM25 ranking, and keeping AES-256-GCM secrets out of inverted indices.
+3. **[Why Rust + Tauri Beats Electron for Developer Scratchpads](https://anan.lat/blog/why-rust-tauri-beats-electron-for-scratchpads)** — Memory footprint (15MB vs 500MB RAM) and sub-50ms summon benchmarks on Windows 11.
+4. **[Building an Offline-First SQLite Vault with AES-256-GCM and Argon2id](https://anan.lat/blog/building-offline-first-sqlite-vault-aes-256-gcm)** — Authenticated encryption with AAD binding and `zeroize` memory scrubbing.
+5. **[Dual-Track AI Architecture: SenseNova 5-Key Gateway Load Balancing vs. Local BYOK](https://anan.lat/blog/dual-track-ai-sensenova-load-balancing-vs-byok)** — Resilient multi-key failover alongside zero-telemetry local Ollama/BYOK routing.
 
 ---
 
@@ -99,9 +99,9 @@ Read our systems architecture papers on [quicknote-official.pages.dev/blog](http
 
 Download pre-compiled Windows binaries from [GitHub Releases](https://github.com/qq136692547-cmyk/QuickNote/releases) or our Cloudflare Pages CDN mirror:
 
-- **[Download Portable Edition (.zip)](https://github.com/qq136692547-cmyk/QuickNote/releases/download/v0.1.0/QuickNote_v0.1.0_x64_Portable.zip)** ([CDN Mirror](https://quicknote-official.pages.dev/downloads/QuickNote_v0.1.0_x64_Portable.zip)) — Extract and run immediately, zero registry writes.
-- **[Download Windows Installer (.exe)](https://github.com/qq136692547-cmyk/QuickNote/releases/download/v0.1.0/QuickNote_v0.1.0_x64_Installer.exe)** ([CDN Mirror](https://quicknote-official.pages.dev/downloads/QuickNote_v0.1.0_x64_Installer.exe)) — Standard Windows setup wizard.
-- **[SHA256SUMS.txt](https://quicknote-official.pages.dev/downloads/SHA256SUMS.txt)** — Verify binary integrity before execution.
+- **[Download Portable Edition (.zip)](https://github.com/qq136692547-cmyk/QuickNote/releases/download/v0.2.0/QuickNote_v0.2.0_x64_Portable.zip)** ([CDN Mirror](https://anan.lat/downloads/QuickNote_v0.2.0_x64_Portable.zip)) — Extract and run immediately, zero registry writes.
+- **[Download Windows Installer (.exe)](https://github.com/qq136692547-cmyk/QuickNote/releases/download/v0.2.0/QuickNote_v0.2.0_x64_Installer.exe)** ([CDN Mirror](https://anan.lat/downloads/QuickNote_v0.2.0_x64_Installer.exe)) — Standard Windows setup wizard.
+- **[SHA256SUMS.txt](https://anan.lat/downloads/SHA256SUMS.txt)** — Verify binary integrity before execution.
 
 ---
 
@@ -124,11 +124,11 @@ Download pre-compiled Windows binaries from [GitHub Releases](https://github.com
 
 ## 💬 Links &amp; Support
 
-- **Official Website**: [https://quicknote-official.pages.dev](https://quicknote-official.pages.dev)
-- **Engineering Blog**: [https://quicknote-official.pages.dev/blog/](https://quicknote-official.pages.dev/blog/)
+- **Official Website**: [https://anan.lat](https://anan.lat)
+- **Engineering Blog**: [https://anan.lat/blog/](https://anan.lat/blog/)
 - **Product Hunt**: [https://www.producthunt.com/products/quicknote-5](https://www.producthunt.com/products/quicknote-5)
 - **Maker Open-Source Hub**: [https://qq136692547-cmyk.github.io/](https://qq136692547-cmyk.github.io/)
-- **Support Email**: [qq136692547@gmail.com](mailto:qq136692547@gmail.com)
+- **Support Email**: [support@anan.lat](mailto:support@anan.lat)
 - **Issue Tracker**: [GitHub Issues](https://github.com/qq136692547-cmyk/QuickNote/issues)
 
 <p align="center">
